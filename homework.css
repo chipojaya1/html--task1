@@ -35,6 +35,7 @@ ul.top_menu {
   text-decoration: none;
   display: block;
   padding: 15px;
+  font-size: 2rem;
 }
 .top_menu li a:hover {
   text-decoration: underline;
@@ -55,6 +56,10 @@ ul.top_menu {
   width: 300px;
   float: left;
 }
+#inquiry a {
+  background-color: #FDF5E6;
+  color: #696969;
+}
 .side_menu li {
   background-color: #FFC0CB;
   height: 6rem;
@@ -70,30 +75,29 @@ ul.top_menu {
 .side_menu li :hover {
   opacity: 0.6;
 }
-.content{
-  width: 150px;
-  margin-right: 10px;
-  float: left;
+article{
   font-size: 1.5rem;
   height: 7rem ;
   text-align: right;
-  margin-left: 0;
-}
-.textarea {
-  width: 480px
-}
-.content td {
-  padding-left: 15px
-}
+  float: left;
+  font-size: 1.5rem;
+  padding-right: 0;
+  margin-left: 150px;
+  }
+#textarea input {
+  width: 420px;
+  }
 .send {
   background-color: #6495ED ;
   color: #fff;
   font-size: 1.5rem;
   height: 40px;
   width: 70px;
+  text-align: center;
+  border: none;
 }
 .send:hover {
-  opacity: 0.6 ;
+  opacity: 0.5 ;
 }
 .footer{
   width: 100%;
